@@ -1,0 +1,81 @@
+.rir {
+     color: aqua; 
+    }
+h1 {
+    color: blue;
+    } 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto 20px;
+    }
+{}
+
+}
+h4 {
+    color: darkred;
+
+}
+h2 {
+    color: darkgreen;
+}
+body {
+    transform: ;
+    
+}
+#s {
+    background-color: rgb(221, 67, 188);
+    text-transform: uppercase;
+}
+#cm {
+    background-color: rgb(241, 99, 194);
+
+}
+#footer {
+text-transform: uppercase;    
+}
+#m {
+    color: rgb(117, 7, 7);
+    text-transform: lowercase;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.contact-link.whatsapp i {
+    color: #25D366;
+    font-size: 20px;
+}
+
+
+.contact-link.email i {
+    color: #ea4335;
+    font-size: 18px;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+footer {
+    
+    padding: 23px;
+    text-align: center;
+    font-size: 19px;
+    
+}
