@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Équilibre d'un corps sous l'action de 2 forces</title>
+  <link rel="stylesheet" href="css.css">
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+  <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        h1 {
+            color: #1a5276;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .exercise {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            border: 1px solid #e1e8ed;
+        }
+       
+        .questions {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .solution {
+            background-color: #f0f9f8;
+            border-left: 4px solid #27ae60;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 0 5px 5px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: #fff;
+        }
+        th, td {
+            border: 1px solid #bdc3c7;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .data-box {
+            background-color: #eef9ff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+  <h1>Équilibre d'un corps sous l'action de 2 forces</h1>
+<h2>a)-voir le cour👇😊</h2>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/dpOgisYaHbs?si=k38KdN9zTKmNu1V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h2>b)-les exercices👇😊</h2>
+<!-- EXERCICE 1 -->
+    <div class="exercise">
+        <h2>Exercice 1: Tension d'un ressort - Poussée d'Archimède</h2>
+    <img src="Capture d'écran 2026-10-03 194707.png" alt="">
+        <div class="questions">
+            <p>On souhaite construire un dynamomètre en utilisant un ressort à spires non jointives[cite: 18]. Pour étalonner ce dynamomètre, une extrémité du ressort est fixée à un support, à l'autre extrémité on accroche des masses marquées[cite: 18].</p>
+            <p>L'allongement du ressort est déterminé par la relation : $\Delta l = l - l_0$[cite: 18].<br>
+            $l$ la longueur finale du ressort et $l_0$ la longueur initiale ($l_0 = 10\text{ cm}$)[cite: 18].</p>
+            <p>On donne : $g = 9{,}8\text{ N/kg}$[cite: 18].</p>
+            
+            <p><strong>1-</strong> Compléter le tableau. $T$ est la force exercée sur l'extrémité libre du ressort par la masse $m$[cite: 18].</p>
+            <p><strong>2-</strong> Tracer la courbe d'étalonnage $T = f(x)$ et en déduire la raideur $k$ du ressort[cite: 18].</p>
+        </div>
+
+        <h3>Corrigé :</h3>
+        <div class="solution">
+            <p><strong>1- Tableau complété :</strong></p>
+            <p>L'extrémité inférieure du ressort est soumise à[cite: 18] :</p>
+            <ul>
+                <li>Poids de la masse : verticale, vers le bas, valeur $P = m \cdot g$ ($m$ en kg)[cite: 19].</li>
+                <li>Tension du ressort : verticale, vers le haut, valeur $T = k \cdot x$ ($k$ en N/m et $x$ en m)[cite: 19].</li>
+            </ul>
+            <p>À l'équilibre : $\vec{P} + \vec{T} = \vec{0} \implies P = T \implies T = m \cdot g$[cite: 19].</p>
+            
+            <table>
+                <tr>
+                    <th>Masse (g)</th>
+                    <td>0</td>
+                    <td>20</td>
+                    <td>40</td>
+                    <td>60</td>
+                    <td>80</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <th>La longueur $l$ (cm)</th>
+                    <td>10</td>
+                    <td>10,4</td>
+                    <td>10,8</td>
+                    <td>11,3</td>
+                    <td>11,6</td>
+                    <td>12,0</td>
+                </tr>
+                <tr>
+                    <th>L'allongement $x$ (cm)</th>
+                    <td>0</td>
+                    <td>0,4</td>
+                    <td>0,8</td>
+                    <td>1,3</td>
+                    <td>1,6</td>
+                    <td>2,0</td>
+                </tr>
+                <tr>
+                    <th>La tension $T$ (N)</th>
+                    <td>0</td>
+                    <td>0,20</td>
+                    <td>0,39</td>
+                    <td>0,59</td>
+                    <td>0,78</td>
+                    <td>0,98</td>
+                </tr>
+            </table>
+
+            <p><strong>2- La raideur du ressort $k$ :</strong></p>
+            <img src="Capture d'écran 2026-10-03 194734.png" alt="">
+            <p>La courbe $T = f(x)$ est une droite qui passe par l'origine des axes[cite: 19]. La raideur $k$ est égale au coefficient directeur de la droite[cite: 19] :</p>
+            <p>$$T = k \cdot x \implies k = \frac{\Delta T}{\Delta x} = \frac{0{,}8\text{ N}}{0{,}016\text{ m}} = 50\text{ N}\cdot\text{kg}^{-1} \text{ (ou N/m)}$$[cite: 19]</p>
+        </div>
+    </div>
+
+    <!-- EXERCICE 2 -->
+    <div class="exercise">
+        <h2>Exercice 2: Allongement en fonction de la masse</h2>
+        <img src="Capture d'écran 2026-10-03 194752.png" alt="">
+        <div class="questions">
+            <p>Le ressort à étudier est accroché à une potence[cite: 19]. À l'extrémité libre, notée E, on suspend successivement des masses de différentes valeurs[cite: 19]. Le zéro correspond à la position de E à vide[cite: 19]. Pour chaque masse $m$, on mesure l'allongement $\Delta l$ du ressort[cite: 19].</p>
+            
+            <p><strong>1-</strong> Construire le graphe représentant la fonction $\Delta l = f(m)$[cite: 20]. En déduire une relation numérique entre $\Delta l$ et $m$[cite: 20]. Échelle : $1{,}0\text{ cm}$ pour $0{,}1\text{ kg}$ et $1{,}0\text{ cm}$ pour $2{,}5\text{ cm}$[cite: 20].</p>
+            <p><strong>2-</strong> Après avoir fait le bilan des forces extérieures s'exerçant sur la masse $m$, établir l'expression littérale de la constante de raideur $k$ du ressort[cite: 20].</p>
+            <p><strong>3-</strong> Calculer la valeur de $k$[cite: 20].</p>
+        </div>
+
+        <h3>Corrigé :</h3>
+        <div class="solution">
+            <p><strong>1- Construction du graphe et relation numérique :</strong></p>
+            <img src="Capture d'écran 2026-10-03 194809.png" alt="">
+            <p>On obtient une droite passant par l'origine : $\Delta l = a \cdot m$[cite: 20].<br>
+            Calcul du coefficient directeur $a$ avec $A(0{,}60\text{ kg}; 0{,}15\text{ m})$ et $B(0{,}80\text{ kg}; 0{,}20\text{ m})$[cite: 20] :</p>
+            <p>$$a = \frac{\Delta l_B - \Delta l_A}{m_B - m_A} = \frac{0{,}20 - 0{,}15}{0{,}80 - 0{,}60} = 0{,}25\text{ m}\cdot\text{kg}^{-1}$$[cite: 20]</p>
+            <p>La relation numérique est : $\Delta l = 0{,}25 \cdot m \quad (1)$[cite: 20]</p>
+
+            <p><strong>2- Expression littérale de $k$ :</strong></p>
+            <p>Les forces extérieures sont : le poids $\vec{P}$ et la force de rappel $\vec{F}$[cite: 20].<br>
+            À l'équilibre : $\vec{P} + \vec{F} = \vec{0} \implies P = F$[cite: 20].<br>
+            Or $P = m \cdot g$ et $F = k \cdot \Delta l$[cite: 20].<br>
+            D'où : $k \cdot \Delta l = m \cdot g \quad (2) \implies k = \frac{m \cdot g}{\Delta l}$[cite: 20]</p>
+
+            <p><strong>3- Calcul de $k$ :</strong></p>
+            <p>En combinant (1) et (2)[cite: 20] :</p>
+            <p>$$k \times 0{,}25 \cdot m = m \cdot g \implies k = \frac{g}{0{,}25} = 4 \cdot g = 4 \times 9{,}81 = 39\text{ N}\cdot\text{m}^{-1}$$[cite: 20]</p>
+        </div>
+    </div>
+
+    <!-- EXERCICE 3 -->
+    <div class="exercise">
+        <h2>Exercice 3: Poussée d'Archimède d'un navire</h2>
+        <div class="questions">
+            <p>Un navire de masse de $8000\text{ tonnes}$ est immobile dans un port[cite: 21].</p>
+            <p><strong>1-</strong> On appelle $F$ la résultante des forces exercées par l'eau sur le navire[cite: 21]. Exprimer la valeur $F$ en fonction du volume $V$ de la partie immergée du navire et de la masse volumique de l'eau de mer[cite: 21].</p>
+            <p><strong>2-</strong> La masse volumique de l'eau de mer vaut $1030\text{ kg}\cdot\text{m}^{-3}$ ; calculer $V$[cite: 21].</p>
+        </div>
+
+        <h3>Corrigé :</h3>
+        <div class="solution">
+            <p><strong>1- Expression de $F$ :</strong></p>
+            <img src="Capture d'écran 2026-10-03 194835.png" alt="">
+            <p>Le navire est soumis à deux forces[cite: 21] :</p>
+            <ul>
+                <li>Son poids : $P = m \cdot g$ (avec $m = 8 \times 10^6\text{ kg}$)[cite: 21].</li>
+                <li>La poussée d'Archimède : $F = \rho \cdot V \cdot g$[cite: 21].</li>
+            </ul>
+            <p>D'après le principe d'inertie, à l'équilibre : $\vec{P} + \vec{F} = \vec{0} \implies P = F$[cite: 21].<br>
+            $$m \cdot g = \rho \cdot V \cdot g \implies m = \rho \cdot V \implies V = \frac{m}{\rho}$$[cite: 21]</p>
+
+            <p><strong>2- Calcul de $V$ :</strong></p>
+            <p>$$V = \frac{8 \times 10^6}{1030} = 7{,}8 \times 10^3\text{ m}^3$$[cite: 22]</p>
+        </div>
+    </div>
+
+    <!-- EXERCICE 4 -->
+    <div class="exercise">
+        <h2>Exercice 4: Équilibre d'une boule sur un plan horizontal</h2>
+        <div class="questions">
+            <p><strong>1-</strong> Schématiser une boule de masse $m = 710\text{ g}$ posée sur un plan horizontal[cite: 22]. Représenter le poids $\vec{P}$ de cet objet en précisant ses caractéristiques[cite: 22]. (Échelle : $1\text{ cm} \rightarrow 2\text{ N}$)[cite: 22].</p>
+            <p><strong>2-</strong> Lorsque l'objet est en équilibre, quelle relation vectorielle lie le poids $\vec{P}$ de l'objet et la résultante $\vec{R}$ des forces de contact[cite: 22] ? Représenter dans ces conditions la résultante $\vec{R}$ (préciser ses caractéristiques)[cite: 22].</p>
+            <p> Donnée : $g = 9{,}8\text{ N}\cdot\text{kg}^{-1}$[cite: 22]</p>
+        </div>
+
+        <h3>Corrigé :</h3>
+        <div class="solution">
+            <p><strong>1- Caractéristiques du poids $\vec{P}$ :</strong></p>
+            <ul>
+                <li><strong>Point d'application :</strong> Centre de gravité $G$ de la boule[cite: 22].</li>
+                <li><strong>Direction :</strong> Verticale[cite: 22].</li>
+                <li><strong>Sens :</strong> Vers le bas[cite: 22].</li>
+                <li><strong>Valeur :</strong> $P = m \cdot g = 0{,}710 \times 9{,}8 = 7{,}0\text{ N}$[cite: 22].</li>
+            </ul>
+            <p><em>Longueur du vecteur :</em> $1\text{ cm}$ représente $2\text{ N}$, donc le vecteur $\vec{P}$ mesure $3{,}5\text{ cm}$[cite: 22].</p>
+
+            <p><strong>2- Caractéristiques de la réaction $\vec{R}$ du support :</strong></p>
+            <img src="Capture d'écran 2026-10-03 194921.png" alt="">
+            <p>À l'équilibre : $\vec{P} + \vec{R} = \vec{0} \implies \vec{R} = -\vec{P}$[cite: 22].</p>
+            <ul>
+                <li><strong>Point d'application :</strong> Contact boule - sol[cite: 22].</li>
+                <li><strong>Direction :</strong> Verticale[cite: 22].</li>
+                <li><strong>Sens :</strong> Vers le haut[cite: 22].</li>
+                <li><strong>Valeur :</strong> $R = P = 7{,}0\text{ N}$[cite: 22].</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- EXERCICE 6 -->
+    <div class="exercise">
+        <h2>Exercice 6: Étude d'un Iceberg</h2>
+        <div class="questions">
+            <p>Un iceberg de masse volumique $\rho = 920\text{ kg}\cdot\text{m}^{-3}$ flotte sur l'eau de mer de masse volumique $\rho' = 1030\text{ kg}\cdot\text{m}^{-3}$[cite: 23].</p>
+            <p><strong>1-</strong> Représenter sur un schéma et nommer les résultantes des forces réparties qui s'exercent sur l'iceberg[cite: 23].</p>
+            <p><strong>2-</strong> Calculer en fonction du volume $V$ de l'iceberg, le volume $V'$ de sa partie immergée[cite: 23].</p>
+        </div>
+
+        <h3>Corrigé :</h3>
+        <div class="solution">
+            <p><strong>1- Bilan des forces :</strong></p>
+            <p>Les forces s'exerçant sur l'iceberg sont[cite: 23] :</p>
+            <ul>
+                <li>Le poids $\vec{P}$ (point d'application $G$, centre de gravité de l'iceberg)[cite: 23].</li>
+                <li>La poussée d'Archimède $\vec{F}_A$ (point d'application $G'$, centre de gravité de la partie immergée)[cite: 23].</li>
+            </ul>
+            <p>À l'équilibre : $\vec{P} + \vec{F}_A = \vec{0}$[cite: 23].</p>
+
+            <p><strong>2- Calcul de $V'$ :</strong></p>
+            <p>Les deux forces ont la même valeur : $P = F_A$[cite: 23].<br>
+            $$m \cdot g = \rho' \cdot V' \cdot g \implies \rho \cdot V = \rho' \cdot V'$$[cite: 23]
+            $$V' = \frac{\rho \cdot V}{\rho'} = \frac{920}{1030} \cdot V = 0{,}89 \cdot V$$[cite: 23]</p>
+            <p><em>Conclusion :</em> <strong>89%</strong> du volume de l'iceberg est immergé dans l'eau[cite: 23].</p>
+        </div>
+    </div>
+
+    <!-- EXERCICE 7 -->
+    <div class="exercise">
+        <h2>Exercice 7: Étalonnage d'un dynamomètre</h2>
+        <img src="Capture d'écran 2026-10-03 194945.png" alt="">
+        <div class="questions">
+            <p>Pour réaliser un dynamomètre à l'aide d'un ressort, on effectue un étalonnage[cite: 24]. Le ressort est suspendu à un point fixe et l'extrémité libre porte un index devant une règle graduée[cite: 24]. On accroche différentes masses $m$ et on lit l'allongement $x$[cite: 24].</p>
+            
+            <p><strong>1-</strong> Faire le bilan des forces s'exerçant sur la masse[cite: 24].</p>
+            <p><strong>2.1-</strong> Quelle relation lie les forces s'exerçant sur celle-ci à l'équilibre[cite: 24] ?</p>
+            <p><strong>2.2-</strong> En déduire la valeur de $F$, force de rappel du ressort, en fonction de $m$ et $g$[cite: 24].</p>
+            <p><strong>2.3-</strong> Compléter le tableau en donnant les valeurs de $F$[cite: 24].</p>
+            <p><strong>3-</strong> Construire le graphe donnant $F$ en fonction de $x$[cite: 24].</p>
+            <p><strong>4-</strong> Déterminer graphiquement la valeur nécessaire de la force $F$ qui entraîne un allongement $x = 20{,}4\text{ cm}$[cite: 24].</p>
+        </div>
+
+        <h3>Corrigé :</h3>
+        <div class="solution">
+            <p><strong>1- Bilan des forces :</strong> Le poids $\vec{P}$ et la tension du ressort $\vec{F}$[cite: 24].</p>
+            <p><strong>2.1- Relation vectorielle :</strong> $\vec{P} + \vec{F} = \vec{0}$[cite: 24].</p>
+            <p><strong>2.2- Expression de $F$ :</strong> $F = P = m \cdot g$[cite: 25].</p>
+            
+            <p><strong>2.3- Tableau des mesures complet :</strong></p>
+            <table>
+                <tr>
+                    <th>$m$ (kg)</th>
+                    <td>0</td><td>0,20</td><td>0,40</td><td>0,60</td><td>0,80</td><td>1,00</td><td>1,20</td><td>1,40</td><td>1,60</td><td>1,80</td><td>2,00</td>
+                </tr>
+                <tr>
+                    <th>$x$ (cm)</th>
+                    <td>0</td><td>2,6</td><td>5,2</td><td>8,0</td><td>10,7</td><td>13,3</td><td>16,0</td><td>18,6</td><td>21,5</td><td>24,0</td><td>26,5</td>
+                </tr>
+                <tr>
+                    <th>$F$ (N)</th>
+                    <td>0</td><td>1,96</td><td>3,96</td><td>5,88</td><td>7,84</td><td>9,8</td><td>11,76</td><td>13,7</td><td>15,68</td><td>17,64</td><td>19,6</td>
+                </tr>
+            </table>
+
+            <p><strong>4- Détermination graphique :</strong></p>
+            <img src="Capture d'écran 2026-10-03 195019.png" alt="">
+            <p>Graphiquement, pour un allongement $x = 20{,}4\text{ cm}$, on trouve une force : **$F = 15\text{ N}$**[cite: 25].</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
