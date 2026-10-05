@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Équilibre d'un corps sous l'action de 3 forces</title>
+  <link rel="stylesheet" href="css.css">
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+  </head>
+<h1>Équilibre d'un corps sous l'action de 3 forces</h1>
+<h2>a)-voir le cours</h2>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/ROuKCPQyYus?si=DPYHWnWLJufzoNbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
