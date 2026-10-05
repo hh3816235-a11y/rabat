@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Équilibre d'un corps sous l'action de 3 forces</title>
+  <link rel="stylesheet" href="css.css">
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+</head>
+
+<body>
+  <h1>Équilibre d'un corps sous l'action de 3 forces</h1>
+  <h2>a)-voir le cours</h2>
+  <iframe width="600" height="400" src="https://www.youtube.com/embed/ROuKCPQyYus?si=DPYHWnWLJufzoNbW"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h2>b)-Exercices</h2>
+  <!-- EXERCICE 1 -->
+  <div class="exercise">
+    <h2>Exercice 1: Détermination d'une force d'origine électrostatique</h2>
+    <div class="questions">
+      <p>La boule chargée d'un pendule électrostatique, de poids $P = 0{,}03\text{ N}$, est repoussée par un corps
+        chargé[cite: 3].</p>
+      <p>À l'équilibre, le fil du pendule fait un angle $\alpha = 6^\circ$ avec la verticale[cite: 3]. On suppose que la
+        force d'origine électrique s'exerçant sur la boule est horizontale[cite: 3].</p>
+      <p><strong>Déterminer :</strong></p>
+      <p>1- La force d'origine électrique s'exerçant sur la boule[cite: 3].</p>
+      <p>2- La tension du fil[cite: 3].</p>
+    </div>
+
+    <h3>Corrigé :</h3>
+    <div class="solution">
+      <p><strong>1- Détermination de la force d'origine électrique :</strong></p>
+      <img src="Capture d'écran 2026-10-05 141855.png" alt="">
+      <p>Le solide à étudier est la boule du pendule[cite: 3].</p>
+      <p>Bilan des forces extérieures appliquées à la boule :</p>
+      <ul>
+        <li>La tension $\vec{T}$ du fil[cite: 3].</li>
+        <li>Le poids $\vec{P}$ de la boule ($P = 0{,}03\text{ N}$)[cite: 3].</li>
+        <li>La force électrique $\vec{F}$, horizontale[cite: 3].</li>
+      </ul>
+      <p>À l'équilibre, la somme vectorielle des trois forces est nulle :</p>
+      <p>$$\vec{P} + \vec{T} + \vec{F} = \vec{0}$$[cite: 4]</p>
+      <p>Par le calcul :</p>
+      <p>$$\tan\alpha = \frac{F}{P} \implies F = P \cdot \tan\alpha$$[cite: 4]</p>
+      <p>$$F = 0{,}03 \times \tan(6^\circ) = 0{,}00315\text{ N} \approx 0{,}0032\text{ N}$$[cite: 4]</p>
+
+      <p><strong>2- Détermination de la tension du fil :</strong></p>
+      <p>$$\cos\alpha = \frac{P}{T} \implies T = \frac{P}{\cos\alpha}$$[cite: 4]</p>
+      <p>$$T = \frac{0{,}03}{\cos(6^\circ)} = 0{,}0302\text{ N}$$[cite: 4]</p>
+    </div>
+  </div>
+
+  <!-- EXERCICE 2 -->
+  <div class="exercise">
+    <h2>Exercice 2: Équilibre d'un solide sur un plan incliné avec ressort</h2>
+    <div class="questions">
+      <p>Un solide $S$ de poids $P = 10\text{ N}$ est posé sur une table inclinée d'un angle $\alpha = 30^\circ$ sur
+        l'horizontale[cite: 4]. Le contact est supposé sans frottements[cite: 4]. Le solide est maintenu en équilibre
+        par un ressort de raideur $k = 200\text{ N/m}$[cite: 4].</p>
+      <p>Calculer l'allongement du ressort et déterminer la valeur de la réaction de la table sur le solide[cite: 4].
+      </p>
+    </div>
+
+    <h3>Corrigé :</h3>
+    <div class="solution">
+      <p>Bilan des forces appliquées au solide $S$[cite: 4] :</p>
+      <ul>
+        <li>La tension $\vec{T}$ du ressort, parallèle au plan incliné[cite: 4].</li>
+        <li>Le poids $\vec{P}$ ($P = 10\text{ N}$)[cite: 4].</li>
+        <li>La réaction $\vec{R}$ de la table, perpendiculaire au plan incliné[cite: 5].</li>
+      </ul>
+      <p>À l'équilibre : $\vec{P} + \vec{T} + \vec{R} = \vec{0}$[cite: 5].</p>
+
+      <p><strong>Réaction de la table $R$ :</strong></p>
+      <p>$$\cos\alpha = \frac{R}{P} \implies R = P \cdot \cos\alpha$$[cite: 5]</p>
+      <p>$$R = 10 \times \cos(30^\circ) = 8{,}7\text{ N}$$[cite: 5]</p>
+
+      <p><strong>Allongement du ressort $\Delta l$ :</strong></p>
+      <img src="Capture d'écran 2026-10-05 141914.png" alt="">
+      <p>$$\sin\alpha = \frac{T}{P} \implies T = P \cdot \sin\alpha$$[cite: 5]</p>
+      <p>$$T = 10 \times \sin(30^\circ) = 5\text{ N}$$[cite: 5]</p>
+      <p>Or $T = k \cdot \Delta l \implies \Delta l = \frac{T}{k}$[cite: 5] :</p>
+      <p>$$\Delta l = \frac{5}{200} = 0{,}025\text{ m} = 2{,}5\text{ cm}$$[cite: 5]</p>
+    </div>
+  </div>
+
+  <!-- EXERCICE 3 -->
+  <div class="exercise">
+    <h2>Exercice 3: Mouvement d'une valise avec frottement</h2>
+    <div class="questions">
+      <p>Un voyageur tire une valise de masse $m = 8{,}5\text{ kg}$ sur un sol horizontal à l'aide d'une lanière
+        inclinée d'un angle $\alpha = 30^\circ$[cite: 5]. La tension de la lanière est $T = 8{,}0\text{ N}$[cite: 5]. Le
+        mouvement est rectiligne uniforme avec frottement[cite: 5]. On donne $g = 9{,}8\text{ N/kg}$[cite: 6].</p>
+      <p><strong>1-</strong> Faire l'inventaire des forces exercées sur la valise[cite: 5].</p>
+      <p><strong>2-</strong> Quelle égalité vectorielle doivent vérifier ces forces[cite: 6] ?</p>
+      <p><strong>3-</strong> Calculer la valeur de la force de frottement $f$[cite: 6].</p>
+      <p><strong>4-</strong> En déduire la valeur de la réaction $\vec{R}$ exercée sur la valise[cite: 6].</p>
+    </div>
+
+    <h3>Corrigé :</h3>
+    <div class="solution">
+      <p><strong>1- Inventaire des forces :</strong></p>
+      <img src="Capture d'écran 2026-10-05 141935.png" alt="">
+      <ul>
+        <li>Poids $\vec{P}$ : $P = m \cdot g = 8{,}5 \times 9{,}8 = 83{,}3\text{ N}$[cite: 6].</li>
+        <li>Tension $\vec{T}$ : $T = 8{,}0\text{ N}$[cite: 6].</li>
+        <li>Composante normale $\vec{R}_N$ (perpendiculaire au sol)[cite: 6].</li>
+        <li>Force de frottement $\vec{f}$ (opposée au mouvement)[cite: 6].</li>
+      </ul>
+
+      <p><strong>2- Égalité vectorielle :</strong></p>
+      <p>Mouvement rectiligne uniforme $\implies \vec{P} + \vec{R}_N + \vec{f} + \vec{T} = \vec{0}$[cite: 6].</p>
+
+      <p><strong>3- Valeur de la force de frottement $f$ :</strong></p>
+      <p>Projection sur l'axe horizontal $(Ox)$ :</p>
+      <p>$$-f + T \cdot \cos\alpha = 0 \implies f = T \cdot \cos\alpha$$[cite: 6]</p>
+      <p>$$f = 8 \times \cos(30^\circ) = 6{,}93\text{ N}$$[cite: 6]</p>
+
+      <p><strong>4- Valeur de la réaction $\vec{R}$ :</strong></p>
+      <p>Projection sur l'axe vertical $(Oy)$ :</p>
+      <p>$$R_N - P + T \cdot \sin\alpha = 0 \implies R_N = P - T \cdot \sin\alpha$$[cite: 7]</p>
+      <p>$$R_N = 83{,}3 - 8 \times \sin(30^\circ) = 79{,}3\text{ N}$$[cite: 7]</p>
+      <p>D'où la valeur totale $R = \sqrt{R_N^2 + f^2}$[cite: 6] :</p>
+      <p>$$R = \sqrt{(79{,}3)^2 + (6{,}93)^2} \approx 79{,}6\text{ N}$$[cite: 7]</p>
+    </div>
+  </div>
+
+  <!-- EXERCICE 4 -->
+  <div class="exercise">
+    <h2>Exercice 4: Équilibre d'un bloc avec frottement</h2>
+    <div class="questions">
+      <p>Un bloc de masse $m = 200\text{ kg}$ est immobile sur un plan incliné d'un angle $\alpha = 20^\circ$[cite: 7].
+        Le coefficient de frottement est $\mu = 0{,}5$[cite: 7].</p>
+      <p><strong>1-</strong> Calculer les composantes normale et tangentielle de la réaction[cite: 7].</p>
+      <p><strong>2-</strong> Déterminer la valeur de la tension $T$ de la corde[cite: 7].</p>
+    </div>
+
+    <h3>Corrigé :</h3>
+    <div class="solution">
+      <p><strong>1- Composantes de la réaction :</strong></p>
+      <p>Projection sur l'axe normal au plan :</p>
+      <img src="Capture d'écran 2026-10-05 141957.png" alt="">
+      <p>$$R_N = P \cdot \cos\alpha = 200 \times 9{,}8 \times \cos(20^\circ) = 1841{,}8\text{ N} \approx 1842\text{
+        N}$$[cite: 8]</p>
+      <p>Composante tangentielle (frottement $f$) :</p>
+      <p>$$f = \mu \cdot R_N = 0{,}5 \times 1842 = 921\text{ N}$$[cite: 8]</p>
+
+      <p><strong>2- Valeur de la tension $T$ :</strong></p>
+      <p>Projection sur l'axe parallèle au plan incliné :</p>
+      <p>$$-P \cdot \sin\alpha - f + T = 0 \implies T = P \cdot \sin\alpha + f$$[cite: 8]</p>
+      <p>$$T = 200 \times 9{,}8 \times \sin(20^\circ) + 921 = 670{,}3 + 921 = 1591{,}3\text{ N}$$[cite: 8]</p>
+    </div>
+  </div>
+
+  <!-- EXERCICE 5 -->
+  <div class="exercise">
+    <h2>Exercice 5: Sphère dans une cannelure</h2>
+    <img src="Capture d'écran 2026-10-05 142011.png" alt="">
+    <div class="questions">
+      <p>Une sphère de masse $m = 0{,}5\text{ kg}$ est immobile dans une cannelure d'angle $\alpha = 45^\circ$ sans
+        frottement[cite: 8]. Déterminer les forces exercées par la cannelure[cite: 8].</p>
+    </div>
+
+    <h3>Corrigé :</h3>
+    <div class="solution">
+      <p>Poids de la sphère : $P = m \cdot g = 0{,}5 \times 9{,}8 = 4{,}9\text{ N}$[cite: 9].</p>
+      <p>Par symétrie, les deux forces $T_A$ et $T_B$ sont égales[cite: 9] :</p>
+      <p>$$T_A = T_B = P \cdot \cos\alpha = 4{,}9 \times \cos(45^\circ) = 3{,}46\text{ N}$$[cite: 9]</p>
+    </div>
+  </div>
+
+  <!-- EXERCICE 6 -->
+  <div class="exercise">
+    <h2>Exercice 6: Poussée d'Archimède sur un ballon</h2>
+    <div class="questions">
+      <p>Un ballon de volume $V = 15\text{ dm}^3$ et de masse $m = 700\text{ g}$ flotte sur l'eau[cite: 9].</p>
+      <p><strong>1-</strong> Déterminer la valeur du volume immergé[cite: 9].</p>
+      <p><strong>2-</strong> On applique une force $\vec{F}_1$ pour qu'il reste totalement sous l'eau[cite: 9].
+        Déterminer ses caractéristiques[cite: 9].</p>
+    </div>
+
+    <h3>Corrigé :</h3>
+    <img src="Capture d'écran 2026-10-05 142035.png" alt="">
+    <div class="solution">
+      <p><strong>1- Volume immergé $V_{im}$ :</strong></p>
+      <p>$$P = F_A \implies m \cdot g = \rho_{eau} \cdot V_{im} \cdot g \implies V_{im} = \frac{m}{\rho_{eau}}$$[cite:
+        10]</p>
+      <p>$$V_{im} = \frac{0{,}7\text{ kg}}{1000\text{ kg/m}^3} = 7 \times 10^{-4}\text{ m}^3 = 0{,}7\text{ dm}^3$$[cite:
+        10]</p>
+
+      <p><strong>2- Caractéristiques de $\vec{F}_1$ :</strong></p>
+      <p>À l'équilibre sous l'eau : $P + F_1 - F_A = 0 \implies F_1 = F_A - P$[cite: 10]</p>
+      <p>$$F_A = \rho_{eau} \cdot V_{ballon} \cdot g = 1000 \times 15 \times 10^{-3} \times 9{,}8 = 147\text{ N}$$[cite:
+        10]</p>
+      <p>$$P = 0{,}7 \times 9{,}8 = 6{,}86\text{ N}$$[cite: 10]</p>
+      <p>$$F_1 = 147 - 6{,}86 = 140{,}14\text{ N}$$[cite: 10]</p>
+    </div>
+  </div>
+
+  <!-- EXERCICE 7 -->
+  <div class="exercise">
+    <h2>Exercice 7: Poussée d'Archimède d'un objet métallique</h2>
+    <div class="questions">
+      <p>Au dynamomètre dans l'air : $F_1 = 10{,}2\text{ N}$[cite: 11]. Immergé dans l'eau : $F_2 = 8{,}1\text{
+        N}$[cite: 11]. ($g = 9{,}8\text{ N/kg}$)[cite: 11].</p>
+      <p><strong>1-</strong> Calculer le poids et la masse de cet objet[cite: 11].</p>
+      <p><strong>2-</strong> Calculer le volume $V$ de cet objet[cite: 11].</p>
+      <p><strong>3-</strong> En déduire la masse volumique $\rho$[cite: 11].</p>
+    </div>
+
+    <h3>Corrigé :</h3>
+    <div class="solution">
+      <p><strong>1- Poids et masse :</strong></p>
+      <p>$$P = F_1 = 10{,}2\text{ N}$$[cite: 11]</p>
+      <p>$$m = \frac{P}{g} = \frac{10{,}2}{9{,}8} = 1{,}041\text{ kg}$$[cite: 11]</p>
+
+      <p><strong>2- Volume $V$ :</strong></p>
+      <p>$$F_A = P - F_2 = 10{,}2 - 8{,}1 = 2{,}1\text{ N}$$[cite: 11]</p>
+      <p>$$V = \frac{F_A}{\rho_{eau} \cdot g} = \frac{2{,}1}{1000 \times 9{,}8} = 2{,}14 \times 10^{-4}\text{ m}^3 =
+        0{,}214\text{ L}$$[cite: 11]</p>
+
+      <p><strong>3- Masse volumique $\rho$ :</strong></p>
+      <p>$$\rho = \frac{m}{V} = \frac{1{,}041}{2{,}14 \times 10^{-4}} \approx 4864\text{ kg/m}^3$$[cite: 11]</p>
+    </div>
+  </div>
+</body>
