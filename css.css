@@ -26,9 +26,7 @@ h3 {
             margin-top: 20px;
         }
 
-body:hover {
-    background-color: #d3c3d2;
-}
+
 #s {
     background-color: rgb(221, 67, 188);
     text-transform: uppercase;
@@ -92,7 +90,6 @@ body {
             margin: 0 auto;
             padding: 20px;
             background-color: #f6f4f7;
-            transition: background-color 0.9s ease;
         }
         h1 {
             color: #a01a09;
@@ -156,4 +153,21 @@ body {
             margin: 10px 0;
             font-weight: bold;
         }
-        
+        .n {
+            background-color: #e9ecee;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            width: 500px;
+            text-align: center;
+            transition: all 0.5s ease;
+            color: #e9ecee;
+        }
+        .n:hover {
+            background-color: #0d0913;
+        transform: scale(1.05);
+        }
+        a {
+            color: #9b3685;
+            text-decoration: none;
+        }
