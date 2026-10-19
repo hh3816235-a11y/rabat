@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>le tension electrique</title>
+    <link rel="stylesheet" href="css.css">
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+</head>
+
+<body>
+    <h1>La tension électrique</h1>
+    <h2>a)-voire le cours</h2>
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/aasXL-r25nQ?si=ccW5naaDC5klPhFD"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>b)-exercices</h2>
+    <div class="exercise">
+        <h3>Exercice N°1</h3>
+        <p>On considère le montage suivant : Le générateur maintient entre ses bornes une tension constante \(U_{PN} = 6,00\text{V}\).</p>
+        <img src="Capture d'écran 2026-10-19 170942.png" alt="">
+        <ul class="questions">
+            <li>1. Représenter les tensions \(U_{PN}\), \(U_{AB}\) et \(U_{BN}\) sur le schéma.</li>
+            <li>2. Représenter sur le schéma l'appareil permettant de mesurer la tension \(U_{BN}\).</li>
+            <li>3. On mesure la tension \(U_{BN} = 2,50\text{V}\). Déterminer la tension \(U_{AB}\).</li>
+        </ul>
+
+        <!-- التصحيح -->
+        <div class="correction">
+            <h4>Correction :</h4>
+            <ul class="sub-questions">
+                <li><strong>3.</strong> D'après la loi d'additivité des tensions :<br>
+                \(U_{PN} = U_{AB} + U_{BN}\)<br>
+                \(U_{AB} = U_{PN} - U_{BN} = 6 - 2,5 = 3,5\text{V}\)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- التمرين الثاني -->
+    <div class="exercise">
+        <h3>Exercice N°2</h3>
+        <p>Dans le circuit ci-dessous, on a mesuré les tensions \(U_{EF} = -3,54\text{V}\) et \(U_{PN} = 6\text{V}\).</p>
+        <img src="Capture d'écran 2026-10-19 170959.png" alt="">
+        <ul class="questions">
+            <li>1. Représenter les tensions \(U_{PN}\), \(U_{BA}\), \(U_{DC}\) et \(U_{FE}\) sur le schéma.</li>
+            <li>2. Déterminer les tensions \(U_{BA}\) et \(U_{DC}\).</li>
+        </ul>
+
+        <div class="correction">
+            <h4>Correction :</h4>
+            <ul class="sub-questions">
+                <li><strong>2.</strong> \(U_{PN} = U_{BA} + U_{FE}\)<br>
+                \(U_{BA} = U_{PN} - U_{FE} = U_{PN} - (-U_{EF}) = 6 - 3,54 = 2,46\text{V}\)<br>
+                Puisque les dipôles sont en dérivation : \(U_{DC} = U_{BA} = 2,46\text{V}\).</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- التمرين الثالث -->
+    <div class="exercise">
+        <h3>Exercice N°3</h3>
+        <p>Soient A, B, C et D quatre points d'un circuit électrique. On mesure \(U_{AB} = 10\text{V}\), \(U_{AC} = 7\text{V}\) et \(U_{DA} = -3\text{V}\).</p>
+        <p><strong>Déterminer \(U_{BC}\), \(U_{CA}\) et \(U_{DB}\).</strong></p>
+
+        <div class="correction">
+            <h4>Correction :</h4>
+            <ul class="sub-questions">
+                <li>\(U_{AC} = U_{AB} + U_{BC} \implies U_{BC} = U_{AC} - U_{AB} = 7 - 10 = -3\text{V}\)</li>
+                <li>\(U_{CA} = -U_{AC} = -7\text{V}\)</li>
+                <li>\(U_{DB} = U_{DA} + U_{AB} = -3 + 10 = 7\text{V}\)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- التمرين الرابع -->
+    <div class="exercise">
+        <h3>Exercice N°4</h3>
+        <p>Compléter le schéma du circuit en ajoutant les valeurs des différentes tensions manquantes basées sur les lois des circuits (loi d'additivité et d'unicité).</p>
+    <img src="Capture d'écran 2026-10-19 171013.png" alt="">
+    </div>
+    </body>
+
+</html>
